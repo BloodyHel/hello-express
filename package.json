@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/BloodyHel/hello-express/issues"
   },
-  "homepage": "https://github.com/BloodyHel/hello-express#readme"
+  "homepage": "https://github.com/BloodyHel/hello-express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
