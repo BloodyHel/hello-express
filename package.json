@@ -1,0 +1,22 @@
+{
+  "name": "hello-express",
+  "version": "1.0.0",
+  "description": "Introductory express exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloodyHel/hello-express.git"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Helena Nicholson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BloodyHel/hello-express/issues"
+  },
+  "homepage": "https://github.com/BloodyHel/hello-express#readme"
+}
