@@ -1,7 +1,12 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const helloWorld = require('./controllers/helloWorld');
+const createShoppingList = require('./controllers/createShoppingList')
+
+app.post('/shopping-lists', createShoppingList)
 
 const app = express();
+app.use(bodyParser.json());
 
 app.get('/', helloWorld);
 

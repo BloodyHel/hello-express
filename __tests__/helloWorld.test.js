@@ -8,7 +8,7 @@ it('returns a Hello World object', () => {
     url: '/',
   });
 
-  const response = httpMocks.createRequest();
+  const response = httpMocks.createResponse();
 
   helloWorld(request, response);
 
