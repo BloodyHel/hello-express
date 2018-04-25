@@ -1,12 +1,11 @@
-const express = require('express');
 const bodyParser = require('body-parser');
+const express = require('express');
 const helloWorld = require('./controllers/helloWorld');
 const createShoppingList = require('./controllers/createShoppingList')
 
-app.post('/shopping-lists', createShoppingList)
-
 const app = express();
 app.use(bodyParser.json());
+app.post('/shopping-lists', createShoppingList)
 
 app.get('/', helloWorld);
 
