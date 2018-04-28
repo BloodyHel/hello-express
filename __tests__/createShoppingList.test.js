@@ -13,7 +13,7 @@ it('creates a new shopping list', (done) => {
   const request = httpMocks.createRequest({
     Method: 'POST',
     URL: '/shopping-lists',
-    body: body
+    body: body,
   });
 
   const response = httpMocks.createResponse({
